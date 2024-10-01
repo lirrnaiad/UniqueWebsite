@@ -5,10 +5,63 @@
 }
 
 .sect-list {
-    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
     background: #fff;
     padding: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sect-list h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.list-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.list-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.list-item audio {
+    margin-bottom: 1rem;
+}
+
+.list-item a {
+    font-size: 1rem;
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    text-decoration: underline;
+}
+
+.sect-list p {
+    font-size: 1.5rem;
+    color: #5c5c5c;
+    margin-top: 1rem;
 }
 
 .img {
