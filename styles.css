@@ -92,6 +92,10 @@
     margin-top: 1rem;
 }
 
+#smaller-text {
+    font-size: 1.25rem;
+}
+
 #hero {
     background-image: url(images/bw_unique-glasses.webp);
 }
